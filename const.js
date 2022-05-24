@@ -13,3 +13,6 @@ arr.myProp = "Hello";
 arr.print = function () {
   console.log("I am array function");
 };
+for (let a in arr) {
+  console.log(a, " : ", arr[a]);
+}
